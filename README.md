@@ -5,7 +5,7 @@ A practical, **real-time** Φ-like integration estimator for multivariate time s
 with a **rolling window**, **MIB search (brute-force for small N; spectral + KL swaps for large N)**,
 **negative controls**, and a **streaming CLI**.
 
-> ⚠️ This is an *engineering approximation*, not an exact IIT-3.0 calculator.
+> This is an *engineering approximation*, not an exact IIT-3.0 calculator.
 > It estimates *integration across a bipartition* using Gaussian mutual information.
 
 ## Install (local)
