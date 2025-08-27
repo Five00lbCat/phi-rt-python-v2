@@ -154,7 +154,7 @@ def quick_psychedelic_test():
         reorganization_dominant = False
     
     # Research conclusion
-    print(f"\n🎯 CONCLUSION FOR YOUR RESEARCH QUESTION:")
+    print(f"\n🎯 CONCLUSION FOR RESEARCH QUESTION:")
     print("=" * 55)
     
     if amplification_support:
@@ -214,3 +214,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Error during testing: {e}")
         print(f"🔧 Check that your phi calculator installation is working correctly")
+
